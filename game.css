@@ -1,15 +1,39 @@
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.uApf9ONyi3WHq-RNg324PgHaHa?w=794&h=794&rs=1&pid=ImgDetMain") ;
+    content: cover;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
     width: 560px;
     height: 560px;
     border: solid black;
+    margin: auto;
 }
   
 .grid div {
     width: 20px;
     height: 20px;
 }
+
+
+.score-container {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  h3 {
+    color: white;
+    font-size: 25px;
+    margin: auto;
+  }
+  
+  #score {
+    font-weight: bold;
+    color: yellow;
+    font-size: 28px;
+  }
 
 .pac-dot {
     background-color: green;   
@@ -18,7 +42,7 @@
 }
 
 .wall {
-    background-color: blue;
+    background-color: black;
 }
 
 .power-pellet {
@@ -50,3 +74,4 @@
 .scared-ghost {
     background-color: aquamarine;
 }
+
